@@ -1,0 +1,8 @@
+﻿  Q1050.cpp
+e:\c++\pat\blevel\q1050\q1050\q1050.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++\pat\blevel\q1050\q1050\q1050.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\c++\pat\blevel\q1050\q1050\q1050.cpp(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  Q1050.vcxproj -> E:\C++\PAT\Blevel\Q1050\Debug\Q1050.exe
+  Q1050.vcxproj -> E:\C++\PAT\Blevel\Q1050\Debug\Q1050.pdb (Partial PDB)

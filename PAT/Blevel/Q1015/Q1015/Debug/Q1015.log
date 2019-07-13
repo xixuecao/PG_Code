@@ -1,0 +1,9 @@
+﻿  Q1015.cpp
+e:\c++\pat\blevel\q1015\q1015\q1015.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++\pat\blevel\q1015\q1015\q1015.cpp(63): warning C4018: “<”: 有符号/无符号不匹配
+e:\c++\pat\blevel\q1015\q1015\q1015.cpp(39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\c++\pat\blevel\q1015\q1015\q1015.cpp(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  Q1015.vcxproj -> E:\C++\PAT\Blevel\Q1015\Debug\Q1015.exe
+  Q1015.vcxproj -> E:\C++\PAT\Blevel\Q1015\Debug\Q1015.pdb (Partial PDB)
