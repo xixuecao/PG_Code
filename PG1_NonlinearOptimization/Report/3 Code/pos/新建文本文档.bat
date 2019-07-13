@@ -1,0 +1,1 @@
+DIR *.*  /B >pos_list.TXT
