@@ -1,0 +1,9 @@
+clear;clc;
+data1=load('data1.txt');
+x=data1(1,:);
+y1=data1(2,:);
+y2=data1(3,:);
+y3=data1(4,:);
+y4=data1(5,:);
+y5=data1(6,:);
+cftool

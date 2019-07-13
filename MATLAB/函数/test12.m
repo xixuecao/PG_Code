@@ -1,0 +1,1 @@
+x=fsolve(@myfun,[0.02,9.8,pi,pi])

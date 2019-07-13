@@ -1,0 +1,33 @@
+flying.seed.2015@gmail.com
+
+Muxexp2
+无法显示二阶导图像
+
+Control_For_exp3
+教材和实际模拟不相符，待考证
+
+GUI
+未完成
+
+Factory
+未完成
+
+S函数
+# define S_FUNCTION_NAME sfun_funcall
+# define S_FUNTION_LEVEL 2
+# include ''simstruc.h''
+
+static void mdlInitializeSizes(SimStruct *S)
+{
+    ssSetNumSFcnParams(S,0); /* Number of expected paramaters */
+    if(ssGetNumSFcnParams(S)!=ssGetSFcnParamsCount(S)){
+    return;/* Parameter mismatch will be reported by Similik */
+    }
+    
+    ssSetNumContStates(S,0);
+    ssSetNumDiscStates(S,0); 
+    
+    if(!ssSetNumInputPorts(S,1)) return;
+    ssSetInputPortWidth(S,0,1);
+    ssSetInputPortDirectFeedThrough(S,0,1);
+    

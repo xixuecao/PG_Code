@@ -1,0 +1,1 @@
+ezplot('8*cos(t)','4*sqrt(2)*sin(t)',[0,2*pi])

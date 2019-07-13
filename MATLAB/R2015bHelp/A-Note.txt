@@ -1,0 +1,25 @@
+删掉向量元素后，怎么弄成一个横向量
+X =
+16 2 13
+5 11 8
+9 7 12
+4 14 1
+If you delete a single element from a matrix, the result is not a matrix anymore. So,
+expressions like
+X(1,2) = []
+result in an error. However, using a single subscript deletes a single element, or sequence
+of elements, and reshapes the remaining elements into a row vector. So
+X(2:2:10) = []
+results in
+X =
+16 9 2 7 13 12 1
+
+
+Underdetermined Systems
+答案是2.6645e-15，但计算是0
+
+Singular Values
+完全懵逼！！！
+
+Data linking 
+未理解

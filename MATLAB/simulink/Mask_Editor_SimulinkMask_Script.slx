@@ -1,0 +1,21 @@
+ maskObj=Simulink.Mask.create(gcbh)
+ maskObj.Type='Coetom';
+ maskObj.Description='This demo display how to mask a model';
+ maskObj.Display='t=0:0.1:10;y=t.^2+1;plot(t,y)';
+ g_a=maskObj.addParameter('Type','edit','Name','g_a','Prompt','a','Value','0');
+ g_b=maskObj.addParameter('Type','edit','Name','g_b','Prompt','b','Value','0');
+ %g_b.Value=100;
+ %g_a=maskObj.getParameter('g_a');
+ %g_a.set('Value','2');
+ tabcontainer=maskObj.addDialogControl('tabcontainer','g_container');
+ tab=tabcontainer.addDialogControl('tab','g_tab');
+ tab.Prompt='t1';
+ hyperlink=tab.addDialogControl('hyperlink','g_hyperlink');
+ hyperlink.Prompt='Hyo_MATLAB';
+ hyperlink.Callback='web ''http://www.baidu.com'' ';
+ 
+ tab2=tabcontainer.addDialogControl('tab','g_tab2');
+ tab2.Prompt='t2';
+ pushbutton=tab2.addDialogControl('pushbutton','g_pushbutton');
+ pushbutton.Callback='web ''http://www.iloveMATLAB.cn/forum.php'' ';
+ pushbutton.Prompt='I Love MATLAB!';

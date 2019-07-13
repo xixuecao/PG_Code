@@ -1,0 +1,10 @@
+clear;clc;
+Dr=1;
+Dd=1;
+D0=1;
+Hr=1;
+Hd=1;
+Qgr=1;
+f=@(x) BQQ(x,Dr,Dd,D0,Hr,Hd,Qgr);
+x0=[1 1];
+fsolve(f,x0);
