@@ -1,0 +1,19 @@
+﻿  7_3_2.cpp
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,29): error C2065:  “Screen”: 未声明的标识符
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,35): error C2923:  “std::vector”: 对于参数“_Ty”，“Screen”不是有效的 模板 类型变量
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,35): error C2903:  “allocator”: 符号既不是类 模板 也不是函数 模板
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,35): error C3203:  “allocator”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Alloc”，应为 real 类型
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,47): error C2923:  “std::vector”: 对于参数“_Ty”，“Screen”不是有效的 模板 类型变量
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,47): error C2903:  “allocator”: 符号既不是类 模板 也不是函数 模板
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,47): error C3203:  “allocator”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Alloc”，应为 real 类型
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(10,38): error C2955:  “std::vector”: 使用 类 模板 需要 模板 参数列表
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  参见“std::vector”的声明
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,9): error C2065:  “Screen”: 未声明的标识符
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,15): error C2923:  “std::vector”: 对于参数“_Ty”，“Screen”不是有效的 模板 类型变量
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,15): error C2903:  “allocator”: 符号既不是类 模板 也不是函数 模板
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,15): error C3203:  “allocator”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Alloc”，应为 real 类型
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,17): error C2923:  “std::vector”: 对于参数“_Ty”，“Screen”不是有效的 模板 类型变量
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,17): error C2903:  “allocator”: 符号既不是类 模板 也不是函数 模板
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,17): error C3203:  “allocator”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Alloc”，应为 real 类型
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,25): error C3861:  “Screen”: 找不到标识符
+C:\Users\LUBO\OneDrive\C++\Code\header\Window_mgr.h(13,46): error C1903:  无法从以前的错误中恢复；正在停止编译
