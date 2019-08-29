@@ -1,0 +1,4 @@
+﻿  9_5_5.cpp
+C:\Users\LUBO\OneDrive\C++\Code\9_5_5\9_5_5\9_5_5.cpp(32,18): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\LUBO\OneDrive\C++\Code\9_5_5\9_5_5\9_5_5.cpp(53,11): warning C4018:  “<”: 有符号/无符号不匹配
+  9_5_5.vcxproj -> C:\Users\LUBO\OneDrive\C++\Code\9_5_5\Debug\9_5_5.exe
